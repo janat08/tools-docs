@@ -50,7 +50,7 @@ schema {
 `;
 ```
 
-Then you define resolvers as a nested object that maps type and field names to resolver functions:
+Then you define resolvers that map schema to connectors' results or in this instance redacted sample json intefaced with lodash methods.
 
 ```js
 const resolveFunctions = {
